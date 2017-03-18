@@ -1,0 +1,14 @@
+Streamer:
+  attributes: 0
+  version:
+    major: 1
+    minor: 1
+  main:
+    start: module_start
+    stop: module_stop
+  modules:
+    Streamer:
+      syscall: true
+      functions:
+        - streamerIsConnected
+        - streamerUpdate
